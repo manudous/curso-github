@@ -1,0 +1,1 @@
+### Git Stash y Git Rebase - Para realizar cambios de emergencia
