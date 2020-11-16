@@ -4,7 +4,13 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+   background-color: aqua;
+}
 
+p {
+   color: black;
+}
 
 
 
