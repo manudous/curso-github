@@ -11,13 +11,13 @@ En git los proyectos se llaman repositorios. Existen dos maneras principales de 
 Vamos a configurar primero el git para saber quién utiliza nuestro git.
 
 `
-$ git config --global user.name "Manudous"
+$ git config --global user.name "name"
 `
 
 Y otro para el correo.
 
 `
-$ git config --global user.email "manudous@gmail.com"
+$ git config --global user.email "name@email.com"
 `
 
 Le estoy diciendo a Git que cada vez que alguien en esta máquina haga un commit va a grabarlo con el nombre de Manudous y el correo `manudous@gmail.com.`
