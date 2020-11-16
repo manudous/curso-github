@@ -20,7 +20,7 @@ Y otro para el correo.
 $ git config --global user.email "name@email.com"
 `
 
-Le estoy diciendo a Git que cada vez que alguien en esta máquina haga un commit va a grabarlo con el nombre de Manudous y el correo `manudous@gmail.com.`
+Le estoy diciendo a Git que cada vez que alguien en esta máquina haga un commit va a grabarlo con el nombre de name y el correo name@email.com
 
 Como podemos ver donde están esos registros
 ```
