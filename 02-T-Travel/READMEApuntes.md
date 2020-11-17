@@ -70,5 +70,21 @@ Entonces hacemos el commit del archivo
 git commit -m "Cambiamos el nombre de la historia de superman"
 ```
 
-Ahora hacemos algo parecido con la eliminiación. Eliminamos el archivo con el editor. Hacemos git status para ver que el archivo todavía no está en el Stage. Actualizamos Y ya 
+Ahora hacemos algo parecido con la eliminiación. Eliminamos el archivo con el editor. Hacemos git status para ver que el archivo todavía no está en el Stage. Actualizamos Y ya está en el stage la eliminación y ya lo que nos queda es hacer el commit.
+
+``$ git add -u``
+``$ git commit -m "Borramos la historia de batman"``
+
+###  `- Ignorando archivos que no deseamos`
+
+Creamos un archivo llamado
+
+```.gitignore```
+
+y ahí introducimos las carpetas y los archivos que no queremos subir a git. Debes poner un archivo uno de bajo del otro.
+
+
+``*.log``
+``/node_modules/``
+``/dist/``
 
