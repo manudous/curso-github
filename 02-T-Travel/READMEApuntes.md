@@ -56,3 +56,19 @@ Hacemos esto para actualizar y añademos al Stage
 
 ``$ git add -u``
 ``$ git add -A``
+
+Y git ya me reconoce que hemos renombrado el archivo
+
+```
+M  READMEApuntes.md
+R  historia/superman.historia.md -> historia/superman.md
+``` 
+
+Entonces hacemos el commit del archivo
+
+```
+git commit -m "Cambiamos el nombre de la historia de superman"
+```
+
+Ahora hacemos algo parecido con la eliminiación. Eliminamos el archivo con el editor. Hacemos git status para ver que el archivo todavía no está en el Stage. Actualizamos Y ya 
+
