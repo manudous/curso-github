@@ -16,14 +16,18 @@ $ git reset --hard <punto de la historia>
 
 Para ver todo el historial de git hacemos
 
-``git reflog``
+``$ git reflog``
 
 Y para regresar el punto que querramos hacemos.
 
-``git reset --hard <punto de la historia>``
+``$ git reset --hard <punto de la historia>``
 
 ###  `- Cambiar el no mbre y eliminar archivos mediante git`
 
 Creamos un archivo llamado destruir-mundo.txt, añadimos al stage y hacemos un commit
 
-``git commit -am "Creando el archivo destruir el mundo"``
+``$ git commit -am "Creando el archivo destruir el mundo"``
+
+Como renombramos el archivo desde git
+
+``$ git mv destruir-mundo.txt salvar-mundo.txt``
