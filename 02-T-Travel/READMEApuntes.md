@@ -31,3 +31,28 @@ Creamos un archivo llamado destruir-mundo.txt, añadimos al stage y hacemos un c
 Como renombramos el archivo desde git
 
 ``$ git mv destruir-mundo.txt salvar-mundo.txt``
+
+Hacemos un commit para subirlo.
+
+Vamos ahora como eliminar el archivo, y ya lo mandamos al stage. Ahora tenemos que hacer el commit para estar seguro que lo vamos a Eliminar.
+
+``$ git rm salvar-mundo.txt``
+
+Ahora tenemos que hacer el commit para estar seguro que lo vamos a Eliminar.
+
+``$ git commit -m "Borrando archivo salvar mundo"``
+
+###  `- Cambiar el nombre y eliminar archivos mediante git`
+
+Vamos hacer lo mismo pero fuera de git. Renombramos el archivo
+
+
+```
+- historia/superman.historia.md
++ historia/superman.md
+```
+
+Hacemos esto para actualizar y añademos al Stage
+
+``$ git add -u``
+``$ git add -A``
